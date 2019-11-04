@@ -1,0 +1,21 @@
+body {
+    background-color: #2e2c2a;
+}
+
+header {
+    border: 1px solid white;
+    display: flex;
+    width: 1200px;
+    margin-left: 150px;
+}
+
+li {
+    display: inline-flex;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    color: white;
+    margin-right: 99px;
+}
