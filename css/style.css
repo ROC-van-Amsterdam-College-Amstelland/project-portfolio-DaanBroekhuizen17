@@ -37,7 +37,7 @@ a {
 
 #intro {
     color: black;
-    border: 1px solid white;
+    border: 1px solid black;
     height: 400px;
     width: 950px;
     margin-left: 100px;
@@ -52,7 +52,7 @@ a {
     padding: 10px;
     margin-top: -100px;
     width: 210px;
-    border: 1px solid white;
+    border: 1px solid black;
 }
 
 #ruimte {
@@ -67,4 +67,8 @@ button {
 
 #myImage2 {
     display:none;
+}
+
+body {
+    background-image: url("");
 }
