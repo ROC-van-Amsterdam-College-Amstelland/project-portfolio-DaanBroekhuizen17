@@ -6,15 +6,18 @@ header {
     margin-top: 5px;
     border: 1px solid white;
     flex: auto;
-    width: 1200px;
     margin-left: 150px;
     background-color: white;
 }
 
 footer {
+    width: 1516px;
     height: 50px;
     border: 1px solid black;
     margin-top: 13px;
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 10px;
 }
 
 li {
@@ -34,7 +37,7 @@ a {
     margin-top: 15px;
 }
 
-#foto {
+#myImage1, #myImage2 {
     height: 250px;
     width: 300px;
     margin-top: 10px;
@@ -68,4 +71,8 @@ a {
 button {
     height: 50px;
     width: 50px;
+}
+
+#myImage2 {
+    display:none;
 }

@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -24,26 +23,10 @@
 
 <div id="tekst">   
     <div>
-        <img id="foto" src="images/yeet.jpg" alt="foto">
-        <input type="button" onclick="changeImage()" value="Change" />
+        <img id="myImage1" onclick="changeImage()" src="images/yeet.jpg" alt="foto">
     </div>
 
 
-
-    <script>
-            function changeImage() {
-                var image = document.getElementById('myImage');
-                if (image.src.match("colorbottel")) {
-                    image.src = "waterbottel.gif";
-                }
-                else {
-                    image.src = "colorbottel.gif";
-                }
-            }
-        </script>
-
-
-    
         <p id="intro">
             hallo, <br> krijg de pest, <br> doei
         </p>
@@ -51,7 +34,6 @@
 
 <div id="link">
     <a href="https://www.linkedin.com/in/daan-broekhuizen-b6b348197/">LinkedIn</a>
-    <a href="">CV</a>
     <a href="https://github.com/">Github-account</a>
 </div>
 
@@ -62,6 +44,7 @@
 </footer>
 
 
+<script src="script.js"></script>
 
 </body>
 </html>
