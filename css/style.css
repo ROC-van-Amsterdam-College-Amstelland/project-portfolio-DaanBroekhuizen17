@@ -2,14 +2,6 @@ body {
     background-color: grey;
 }
 
-header {
-    margin-top: 5px;
-    border: 1px solid white;
-    flex: auto;
-    margin-left: 150px;
-    background-color: white;
-}
-
 footer {
     width: 1516px;
     height: 50px;
