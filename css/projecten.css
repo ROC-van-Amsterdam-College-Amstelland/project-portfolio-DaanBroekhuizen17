@@ -22,12 +22,14 @@ a {
 #ruimte2 {
     height: 50px;
     border: 1px solid black;
+    margin-top: 5px;
 }
 
 /* de box waar alles in staat */
-#projecten {
+#project {
     border: 1px solid black;
     display: inline-flex;
+    width: 99.85%;
 }
 
 /* tekst */
@@ -36,38 +38,42 @@ a {
     border: 1px solid black;
     height: 150px;
     width: 50%;
+    margin-top: 5px;
 }
 
 #tekst2 {
     border: 1px solid black;
     height: 150px;
     width: 50%;
+    margin-top: 5px;
 }
 
 #tekst3 {
     border: 1px solid black;
     height: 150px;
     width: 50%;
+    margin-top: 5px;
 }
 
 /* fotos */
 
-#foto1 {
-    border: 1px solid black;
-    height: 150px;
-    width: 50%;
-}
 
 #foto2 {
     border: 1px solid black;
-    height: 150px;
+    height: 300px;
     width: 50%;
+    margin-top: 5px;
 }
 
 #foto3 {
     border: 1px solid black;
-    height: 150px;
+    height: 300px;
     width: 50%;
+    margin-top: 5px;
+}
+
+#mondriaan {
+    
 }
 
 
@@ -78,35 +84,31 @@ a {
 
 #container{
     width: 450px;
-    height: 150px;
+    height: 300px;
     background-color: gold;
     border: 1.5px solid black;
+    margin-top: 5px;
 }
 
 #bovenkant{
     width: 450px;
-    height: 50px;
+    height: 100px;
     background-color: red;
 }
 
 #middenkant{
     width: 450px;
-    height: 50px;
+    height: 100px;
     background-color: white;
 }
 
 #onderkant{
     width: 450px;
-    height: 50px;
+    height: 100px;
     background-color: blue;
 }
 
 button{
     height: 40px;
     width: 40px;
-}
-
-#nazi {
-    background-color: transparent;
-    border: 0px solid transparent;
 }

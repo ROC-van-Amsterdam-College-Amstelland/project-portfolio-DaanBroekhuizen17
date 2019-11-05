@@ -7,9 +7,9 @@ function duitsland(){
     document.getElementById("middenkant").style.display = "block";
     document.getElementById("onderkant").style.display = "block";
 
-    document.getElementById("bovenkant").style.height = "50px";
-    document.getElementById("middenkant").style.height = "50px";
-    document.getElementById("onderkant").style.height = "50px";
+    document.getElementById("bovenkant").style.height = "100px";
+    document.getElementById("middenkant").style.height = "100px";
+    document.getElementById("onderkant").style.height = "100px";
 
     document.getElementById("middenkant").style.borderBottom = "0px";
     document.getElementById("middenkant").style.borderTop = "0px";
@@ -33,9 +33,9 @@ function nederland(){
     document.getElementById("middenkant").style.display = "block";
     document.getElementById("onderkant").style.display = "block";
 
-    document.getElementById("bovenkant").style.height = "50px";
-    document.getElementById("middenkant").style.height = "50px";
-    document.getElementById("onderkant").style.height = "50px";
+    document.getElementById("bovenkant").style.height = "100px";
+    document.getElementById("middenkant").style.height = "100px";
+    document.getElementById("onderkant").style.height = "100px";
 
     document.getElementById("middenkant").style.borderBottom = "0px";
     document.getElementById("middenkant").style.borderTop = "0px";
@@ -55,8 +55,8 @@ function polen(){
     document.getElementById("onderkant").style.backgroundColor = "red";
 
     document.getElementById("bovenkant").style.height = "0px";
-    document.getElementById("middenkant").style.height = "75px";
-    document.getElementById("onderkant").style.height = "75px";
+    document.getElementById("middenkant").style.height = "150px";
+    document.getElementById("onderkant").style.height = "150px";
 
     document.getElementById("bovenkant").style.width = "0px";
     document.getElementById("middenkant").style.width = "450px";
@@ -83,9 +83,9 @@ function colombia(){
     document.getElementById("middenkant").style.width = "450px";
     document.getElementById("onderkant").style.width = "450px";
 
-    document.getElementById("bovenkant").style.height = "80px";
-    document.getElementById("middenkant").style.height = "35px";
-    document.getElementById("onderkant").style.height = "35px";
+    document.getElementById("bovenkant").style.height = "150px";
+    document.getElementById("middenkant").style.height = "75px";
+    document.getElementById("onderkant").style.height = "75px";
 
     document.getElementById("middenkant").style.borderBottom = "0px";
     document.getElementById("middenkant").style.borderTop = "0px";
@@ -108,12 +108,12 @@ function botswana(){
     document.getElementById("middenkant").style.width = "450px";
     document.getElementById("onderkant").style.width = "450px";
 
-    document.getElementById("bovenkant").style.height = "57px";
-    document.getElementById("middenkant").style.height = "16px";
-    document.getElementById("onderkant").style.height = "57px";
+    document.getElementById("bovenkant").style.height = "100px";
+    document.getElementById("middenkant").style.height = "50px";
+    document.getElementById("onderkant").style.height = "100px";
 
-    document.getElementById("middenkant").style.borderBottom = "10px solid white"
-    document.getElementById("middenkant").style.borderTop = "10px solid white"
+    document.getElementById("middenkant").style.borderBottom = "25px solid white"
+    document.getElementById("middenkant").style.borderTop = "25px solid white"
 
     document.getElementById("bovenkant").style.display = "block";
     document.getElementById("middenkant").style.display = "block";
