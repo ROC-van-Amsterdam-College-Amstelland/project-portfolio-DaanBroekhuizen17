@@ -2,13 +2,6 @@ body {
     background-color: grey;
 }
 
-footer {
-    width: 1516px;
-    height: 50px;
-    border: 1px solid black;
-    margin-top: 5px;
-    margin-bottom: 10px;
-}
 
 li {
     display: inline-flex;
@@ -26,6 +19,10 @@ a {
     border: 1px solid black;
 }
 
+#ruimte2 {
+    height: 50px;
+    border: 1px solid black;
+}
 
 /* de box waar alles in staat */
 #projecten {
@@ -71,4 +68,45 @@ a {
     border: 1px solid black;
     height: 150px;
     width: 50%;
+}
+
+
+
+
+
+/* hier staat project 3 */
+
+#container{
+    width: 450px;
+    height: 150px;
+    background-color: gold;
+    border: 1.5px solid black;
+}
+
+#bovenkant{
+    width: 450px;
+    height: 50px;
+    background-color: red;
+}
+
+#middenkant{
+    width: 450px;
+    height: 50px;
+    background-color: white;
+}
+
+#onderkant{
+    width: 450px;
+    height: 50px;
+    background-color: blue;
+}
+
+button{
+    height: 40px;
+    width: 40px;
+}
+
+#nazi {
+    background-color: transparent;
+    border: 0px solid transparent;
 }

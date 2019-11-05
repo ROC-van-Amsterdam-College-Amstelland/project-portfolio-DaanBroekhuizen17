@@ -72,3 +72,9 @@ button {
 body {
     background-image: url("");
 }
+
+#ruimte2 {
+    height: 50px;
+    border: 1px solid black;
+    
+}
