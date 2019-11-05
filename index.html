@@ -9,33 +9,59 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="over-mij.html">Over Mij</a></li>
-                <li><a href="vaardigheden.html">Vaardigheden</a></li>
-                <li><a href="projecten.html">Projecten</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="nieuws.html">Nieuws</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div>
-        <img id="logo" src="images/ELSA IS BEA.jpg" alt="logo">
-    </div> 
+    <div id="ruimte">
+            <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="over-mij.html">Over Mij</a></li>
+                        <li><a href="vaardigheden.html">Vaardigheden</a></li>
+                        <li><a href="projecten.html">Projecten</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="nieuws.html">Nieuws</a></li>
+                    </ul>
+                </nav>
+    </div>
+
 <div id="tekst">   
     <div>
-        <img onclick="verander1()" id="foto" src="images/ELSA IS BEA.jpg" alt="foto">
+        <img id="foto" src="images/yeet.jpg" alt="foto">
+        <input type="button" onclick="changeImage()" value="Change" />
     </div>
+
+
+
+    <script>
+            function changeImage() {
+                var image = document.getElementById('myImage');
+                if (image.src.match("colorbottel")) {
+                    image.src = "waterbottel.gif";
+                }
+                else {
+                    image.src = "colorbottel.gif";
+                }
+            }
+        </script>
+
+
+    
         <p id="intro">
-            hallo, krijg de pest, doei
+            hallo, <br> krijg de pest, <br> doei
         </p>
 </div>
+
 <div id="link">
     <a href="https://www.linkedin.com/in/daan-broekhuizen-b6b348197/">LinkedIn</a>
     <a href="">CV</a>
     <a href="https://github.com/">Github-account</a>
 </div>
+
+<footer>
+
+
+
+</footer>
+
+
+
 </body>
 </html>
