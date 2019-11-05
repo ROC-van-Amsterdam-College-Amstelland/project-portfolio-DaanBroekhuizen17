@@ -2,13 +2,6 @@ body {
     background-color: grey;
 }
 
-footer {
-    width: 1516px;
-    height: 50px;
-    border: 1px solid black;
-    margin-top: 5px;
-    margin-bottom: 10px;
-}
 
 li {
     display: inline-flex;
@@ -23,5 +16,18 @@ a {
 
 #ruimte {
     height: 50px;
+    border: 1px solid black;
+}
+
+#ruimte2 {
+    height: 50px;
+    border: 1px solid black;
+}
+
+
+
+/* de main container */
+
+#vaardigheid {
     border: 1px solid black;
 }
