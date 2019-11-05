@@ -29,33 +29,46 @@ a {
 
 /* de box waar alles in staat */
 #projecten {
-    border: 1px solid white;
+    border: 1px solid black;
+    display: inline-flex;
 }
 
 /* tekst */
 
 #tekst1 {
-    border: 1px solid white;
+    border: 1px solid black;
+    height: 150px;
+    width: 50%;
 }
 
 #tekst2 {
-    border: 1px solid white;
+    border: 1px solid black;
+    height: 150px;
+    width: 50%;
 }
 
 #tekst3 {
-    border: 1px solid white;
+    border: 1px solid black;
+    height: 150px;
+    width: 50%;
 }
 
 /* fotos */
 
 #foto1 {
-    border: 1px solid white;
+    border: 1px solid black;
+    height: 150px;
+    width: 50%;
 }
 
 #foto2 {
-    border: 1px solid white;
+    border: 1px solid black;
+    height: 150px;
+    width: 50%;
 }
 
 #foto3 {
-    border: 1px solid white;
+    border: 1px solid black;
+    height: 150px;
+    width: 50%;
 }
