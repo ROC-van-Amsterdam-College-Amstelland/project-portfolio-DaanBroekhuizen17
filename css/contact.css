@@ -25,3 +25,94 @@ a {
     height: 50px;
     border: 1px solid black;
 }
+
+#ruimte2 {
+    height: 50px;
+    border: 1px solid black;
+}
+
+
+
+
+
+/* main */
+
+#main {
+    border: 1px solid black;
+    width: 99.86%;
+    height: 650px;
+    display: inline-flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* de 2 main containers */
+
+#links {
+    width: 49.93%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#rechts {
+    width: 49.93%;
+    display: inline-flex;
+}
+
+/* hier staat alles van links */
+
+#foto {
+    height: 250px;
+    width: 200px;
+}
+
+img {
+    width: 200px;
+    height: 250px;
+}
+
+#naam {
+    height: 10px;
+    width: 80%;
+}
+
+#telnummer {
+    height: 10px;
+    width: 80%;
+}
+
+#email {
+    height: 10px;
+    width: 80%;
+}
+
+
+
+
+
+/* hier staat alles van rechts */
+
+#rechts1 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#rechts2 {
+    border: 1px solid black;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
