@@ -2,16 +2,6 @@ body {
     background-color: grey;
 }
 
-footer {
-    width: 1516px;
-    height: 50px;
-    border: 1px solid black;
-    margin-top: 13px;
-    bottom: 0;
-    position: absolute;
-    margin-bottom: 10px;
-}
-
 li {
     display: inline-flex;
 }
@@ -76,5 +66,5 @@ body {
 #ruimte2 {
     height: 50px;
     border: 1px solid black;
-    
+    margin-top: 35px;
 }
