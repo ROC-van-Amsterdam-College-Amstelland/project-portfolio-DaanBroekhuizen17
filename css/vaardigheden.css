@@ -40,24 +40,73 @@ a {
 #balk1 {
     border: 1px solid black;
     height: 50px;
+    width: 700px;
 }
 
 #balk2 {
     border: 1px solid black;
     height: 50px;
+    width: 700px;
 }
 
 #balk3 {
     border: 1px solid black;
     height: 50px;
+    width: 700px;
 }
 
 #balk4 {
     border: 1px solid black;
     height: 50px;
+    width: 700px;
 }
 
 #balk5 {
     border: 1px solid black;
     height: 50px;
+    width: 700px;
+}
+
+/* hier staat de tekst */
+
+#tekst1 {
+    width: 200px;
+}
+
+#tekst2 {
+    width: 200px;
+}
+
+#tekst3 {
+    width: 200px;
+}
+
+#tekst4 {
+    width: 200px;
+}
+
+#tekst5 {
+    width: 200px;
+}
+
+/* hier staan de kopjes */
+
+#html {
+    display: inline-flex;
+}
+
+#css {
+    display: inline-flex;
+}
+
+#javascript {
+    display: inline-flex;
+}
+
+#office {
+    display: inline-flex;
+}
+
+#google {
+    display: inline-flex;
 }
